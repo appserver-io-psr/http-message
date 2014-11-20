@@ -1,7 +1,7 @@
-TechDivision_HttpMessage
-========================
+PSR, for HTTP Message (based on PSR-7)
+======================================
 
-This is a dummy package that contains some interface for HTTP messaging while PSR-7 is in proposal state.
+PSR package containing some interface for HTTP messaging while PSR-7 is in proposal state.
 
 More information under:
 
