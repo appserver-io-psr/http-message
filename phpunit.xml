@@ -1,6 +1,6 @@
 <phpunit>
     <testsuites>
-	    <testsuite name="appserver-io-psr/servlet PHPUnit testsuite">
+	    <testsuite name="appserver-io-psr/http-message PHPUnit testsuite">
 	        <directory suffix="Test.php">tests</directory>
 	    </testsuite>
 	</testsuites>
