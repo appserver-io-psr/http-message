@@ -39,7 +39,6 @@ interface CookieInterface
      * Returns the name of this cookie
      *
      * @return string The cookie name
-     * @api
      */
     public function getName();
 
@@ -47,7 +46,6 @@ interface CookieInterface
      * Returns the value of this cookie
      *
      * @return mixed
-     * @api
      */
     public function getValue();
 
@@ -60,7 +58,6 @@ interface CookieInterface
      * The special case "no expiration time" is returned in form of a zero value.
      *
      * @return integer A unix timestamp or 0
-     * @api
      */
     public function getExpires();
 
@@ -71,7 +68,6 @@ interface CookieInterface
      * Note that not all browsers support this attribute.
      *
      * @return integer The maximum age in seconds, or NULL if none has been defined.
-     * @api
      */
     public function getMaximumAge();
 
@@ -79,7 +75,6 @@ interface CookieInterface
      * Returns the domain this cookie is valid for.
      *
      * @return string The domain name
-     * @api
      */
     public function getDomain();
 
@@ -87,7 +82,6 @@ interface CookieInterface
      * Returns the path this cookie is valid for.
      *
      * @return string The path
-     * @api
      */
     public function getPath();
 
@@ -98,7 +92,6 @@ interface CookieInterface
      * for more details.
      *
      * @return boolean State of the "Secure" attribute
-     * @api
      */
     public function isSecure();
 
@@ -106,7 +99,6 @@ interface CookieInterface
      * Tells if this cookie should only be used through the HTTP protocol.
      *
      * @return boolean State of the "HttpOnly" attribute
-     * @api
      */
     public function isHttpOnly();
 
