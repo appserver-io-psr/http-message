@@ -11,14 +11,11 @@
  *
  * PHP version 5
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage HttpMessage
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io/http-message
- * @link       http://www.appserver.io
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io/http-message
+ * @link      http://www.appserver.io
  */
 
 namespace AppserverIo\Psr\HttpMessage;
@@ -26,21 +23,18 @@ namespace AppserverIo\Psr\HttpMessage;
 /**
  * Test implementation for the HTTP protocol implementation.
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage HttpMessage
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io/http-message
- * @link       http://www.appserver.io
- * @link       http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io/http-message
+ * @link      http://www.appserver.io
+ * @link      http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
  */
 class ProtocolTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * Tests the static method that resolves the aproriate message for the passed status code.
+     * Tests the static method that resolves the appropriate message for the passed status code.
      *
      * @return void
      */

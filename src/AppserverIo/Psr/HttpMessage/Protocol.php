@@ -11,14 +11,12 @@
  *
  * PHP version 5
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage HttpMessage
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io/http-message
- * @link       http://www.appserver.io
+ * @author    Johann Zelger <jz@appserver.io>
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io/http-message
+ * @link      http://www.appserver.io
  */
 
 namespace AppserverIo\Psr\HttpMessage;
@@ -26,16 +24,13 @@ namespace AppserverIo\Psr\HttpMessage;
 /**
  * Basic constants for usage with the HTTP protocol.
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage HttpMessage
- * @author     Johann Zelger <jz@appserver.io>
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io/http-message
- * @link       http://www.appserver.io
- * @link       http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
+ * @author    Johann Zelger <jz@appserver.io>
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io/http-message
+ * @link      http://www.appserver.io
+ * @link      http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
  */
 class Protocol
 {
@@ -458,7 +453,7 @@ class Protocol
     const STATUS_REASONPHRASE_511 = "Network Authentication Required"; //[RFC6585]
 
     /**
-     * Return's the reason phrase by given status code
+     * Returns the reason phrase by given status code
      *
      * @param int $statusCode The http status code
      *

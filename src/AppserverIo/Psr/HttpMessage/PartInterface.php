@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\HttpMessage\HttpPartInterface
+ * AppserverIo\Psr\HttpMessage\PartInterface
  *
  * NOTICE OF LICENSE
  *
@@ -11,14 +11,12 @@
  *
  * PHP version 5
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage HttpMessage
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io/http-message
- * @link       http://www.appserver.io
+ * @author    Johann Zelger <jz@appserver.io>
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io/http-message
+ * @link      http://www.appserver.io
  */
 
 namespace AppserverIo\Psr\HttpMessage;
@@ -26,16 +24,13 @@ namespace AppserverIo\Psr\HttpMessage;
 /**
  * A part interface.
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage HttpMessage
- * @author     Johann Zelger <jz@appserver.io>
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io/http-message
- * @link       http://www.appserver.io
- * @see        http://tools.ietf.org/html/rfc6265
+ * @author    Johann Zelger <jz@appserver.io>
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io/http-message
+ * @link      http://www.appserver.io
+ * @see       http://tools.ietf.org/html/rfc6265
  */
 interface PartInterface
 {
