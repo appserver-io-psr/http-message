@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\HttpMessage\CookieInterface
+ * \AppserverIo\Psr\HttpMessage\CookieInterface
  *
  * NOTICE OF LICENSE
  *
