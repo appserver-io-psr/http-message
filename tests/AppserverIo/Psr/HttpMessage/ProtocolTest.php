@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\HttpMessage\ProtocolTest
+ * \AppserverIo\Psr\HttpMessage\ProtocolTest
  *
  * NOTICE OF LICENSE
  *
@@ -28,7 +28,7 @@ namespace AppserverIo\Psr\HttpMessage;
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * @link      https://github.com/appserver-io/http-message
  * @link      http://www.appserver.io
- * @link      http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
+ * @see      http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
  */
 class ProtocolTest extends \PHPUnit_Framework_TestCase
 {

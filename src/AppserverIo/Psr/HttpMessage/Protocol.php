@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\HttpMessage\Protocol
+ * \AppserverIo\Psr\HttpMessage\Protocol
  *
  * NOTICE OF LICENSE
  *

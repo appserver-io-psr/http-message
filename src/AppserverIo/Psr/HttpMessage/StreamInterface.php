@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\HttpMessage\StreamInterface
+ * \AppserverIo\Psr\HttpMessage\StreamInterface
  *
  * NOTICE OF LICENSE
  *

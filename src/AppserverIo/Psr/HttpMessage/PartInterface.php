@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\HttpMessage\PartInterface
+ * \AppserverIo\Psr\HttpMessage\PartInterface
  *
  * NOTICE OF LICENSE
  *
@@ -31,6 +31,18 @@ namespace AppserverIo\Psr\HttpMessage;
  * @link      https://github.com/appserver-io/http-message
  * @link      http://www.appserver.io
  * @see       http://tools.ietf.org/html/rfc6265
+ *
+ * The comments below hint at methods present in widely used explicit implementations of this interface and MAY
+ * be introduced in the next MAJOR release of this PSR
+ *
+ * @method null   addHeader()      addHeader(string $name, string $value) Adds header information to the part
+ * @method string getFilename()    getFilename() Gets the original form filename
+ * @method string getTmpFilename() getTmpFilename() Returns the temporary filename
+ * @method null   init()           init(string $streamWrapper = self::STREAM_WRAPPER_TEMP, integer $maxMemory = 5242880) Initiates a http form part object
+ * @method null   putContent()     putContent(string $content) Puts content to input stream
+ * @method null   setFilename()    setFilename(string $filename) Sets the orig form filename
+ * @method null   setTmpFilename() setTmpFilename(string $tmpFilename) Sets the temporary filename
+ * @method null   setName()        setName(string $name) Sets the name of the part
  */
 interface PartInterface
 {

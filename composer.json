@@ -1,36 +1,49 @@
 {
-	"name" : "appserver-io-psr/http-message",
-	"description" : "PSR package containing some interface for HTTP messaging while PSR-7 is in proposal state",
-	"homepage" : "https://github.com/appserver-io-psr/http-message",
-	"keywords" : [
-		"php",
-		"http",
-		"httpmessage",
-		"server",
-		"protocol"
-	],
-	"license" : "OSL-3.0",
-	"authors" : [{
-			"name" : "Tim Wagner",
-			"email" : "tw@appserver.io",
-			"homepage" : "http://www.appserver.io",
-			"role" : "Developer"
-		}
-	],
-	"require" : {
-		"php" : ">=5.4.0"
-	},
-	"require-dev" : {
-		"appserver-io/build" : "~1.0"
-	},
-	"autoload" : {
-		"psr-0" : {
-			"AppserverIo\\Psr\\HttpMessage" : "src/"
-		}
-	},
-	"config" : {
-		"github-oauth" : {
-			"github.com" : "604a3b5943228e434a5b52c2ba3cf72286d30db9"
-		}
-	}
+    "name": "appserver-io-psr/http-message",
+    "description": "PSR package containing some interface for HTTP messaging while PSR-7 is in proposal state",
+    "homepage": "https://github.com/appserver-io-psr/http-message",
+    "keywords": [
+        "php",
+        "http",
+        "httpmessage",
+        "server",
+        "protocol"
+    ],
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Tim Wagner",
+            "email": "tw@appserver.io",
+            "homepage": "http://www.appserver.io",
+            "role": "Developer"
+        },
+        {
+            "name": "Johann Zelger",
+            "email": "jz@appserver.io",
+            "homepage": "http://www.appserver.io",
+            "role": "Developer"
+        },
+        {
+            "name": "Bernhard Wick",
+            "email": "bw@appserver.io",
+            "homepage": "http://www.appserver.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "appserver-io/build": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "AppserverIo\\Psr\\HttpMessage": "src/"
+        }
+    },
+    "config": {
+        "github-oauth": {
+            "github.com": "604a3b5943228e434a5b52c2ba3cf72286d30db9"
+        }
+    }
 }
