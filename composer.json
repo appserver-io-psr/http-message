@@ -40,10 +40,5 @@
         "psr-0": {
             "AppserverIo\\Psr\\HttpMessage": "src/"
         }
-    },
-    "config": {
-        "github-oauth": {
-            "github.com": "6e24de467be8089a2fc49a3bd8d4f0dc795574ef"
-        }
     }
 }
