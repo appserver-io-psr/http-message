@@ -1,3 +1,13 @@
+# Version 1.2.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Added headers and header values necessary to protect a webserver against vulnerability
+
 # Version 1.1.0
 
 ## Bugfixes
