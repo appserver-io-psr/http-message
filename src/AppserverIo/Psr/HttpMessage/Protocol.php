@@ -303,6 +303,83 @@ class Protocol
     const HEADER_FORWARDED = 'Forwarded';
 
     /**
+     * The X-Frame-Options header has to be included in the HTTP response to protect browsers against
+     * 'ClickJacking' attacks.
+     *
+     * @var string
+     * @link http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx
+     */
+    const HEADER_X_FRAME_OPTIONS = 'X-Frame-Options';
+
+    /**
+     * If the X-Frame-Options value contains the token Deny, browsers will prevent the page from rendering if it will
+     * be contained within a frame.
+     *
+     * @var string
+     */
+    const HEADER_X_FRAME_OPTIONS_VALUE_DENY = 'Deny';
+
+    /**
+     * If the X-Frame-Options value contains the token Sameorigin, the browser will block rendering only if the origin
+     * of the top-level browsing-context is different than the origin of the content containing the X-Frame-Options
+     * directive.
+     *
+     * @var string
+     */
+    const HEADER_X_FRAME_OPTIONS_VALUE_SAMEORIGIN = 'Sameorigin';
+
+    /**
+     * If the value contains the token Allow-From origin, the browser will block rendering only if the origin of the
+     * top-level browsing context is different than the origin value supplied with the Allow-From directive.
+     *
+     * @var string
+     */
+    const HEADER_X_FRAME_OPTIONS_VALUE_ALLOW_FROM = 'Allow-From';
+
+    /**
+     * The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser's XSS
+     * protection mechanism.
+     *
+     * @var string
+     * @link https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
+     * @link https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/
+     */
+    const HEADER_X_XSS_PROTECTION = 'X-XSS-Protection';
+
+    /**
+     * Ensures that the web browser's XSS filter is enabled.
+     *
+     * @var string
+     */
+    const HEADER_X_XSS_PROTECTION_VALUE_ON = 1;
+
+    /**
+     * Ensures that the web browser's XSS filter is disabled.
+     *
+     * @var string
+     */
+    const HEADER_X_XSS_PROTECTION_VALUE_OFF = 0;
+
+    /**
+     * If the Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff', older versions of Internet
+     * Explorer and Chrome are able to perform MIME-sniffing on the response body, potentially causing the response
+     * body to be interpreted and displayed as a content type other than the declared content type.
+     *
+     * @var string
+     * @link https://www.owasp.org/index.php/List_of_useful_HTTP_headers
+     * @link http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx
+     */
+    const HEADER_X_CONTENT_TYPE_OPTIONS = 'X-Content-Type-Options';
+
+    /**
+     * If the value of the X-Content-Type-Options is set to Nosniff, older versions of Internet Explorer and Chrome
+     * are protected from performing MIME-sniffing on the response body.
+     *
+     * @var string
+     */
+    const HEADER_X_CONTENT_TYPE_OPTIONS_VALUE_NOSNIFF = 'Nosniff';
+
+    /**
      * Defines the value consts for content-type header
      *
      * @var string
