@@ -444,6 +444,13 @@ class Protocol
     const METHOD_CONNECT = 'CONNECT';
 
     /**
+     * PATCH request method string.
+     *
+     * @var string
+     */
+    const METHOD_PATCH = 'PATCH';
+
+    /**
      * Defines the http 1.0 protocol version identifier
      *
      * @var string
