@@ -1,3 +1,13 @@
+# Version 1.3.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Added constant Protocol::METHOD_PATCH for request method PATCH
+
 # Version 1.2.0
 
 ## Bugfixes
