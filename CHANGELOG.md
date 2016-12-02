@@ -1,3 +1,13 @@
+# Version 1.4.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Added constants Protocol::HEADER_ACCESS_CONTROL_ALLOW_HEADERS + Protocol::HEADER_ACCESS_CONTROL_ALLOW_METHODS
+
 # Version 1.3.0
 
 ## Bugfixes
