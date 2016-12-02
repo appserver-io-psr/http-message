@@ -296,6 +296,20 @@ class Protocol
     const HEADER_ACCESS_CONTROL_ALLOW_CREDENTIALS = 'Access-Control-Allow-Credentials';
 
     /**
+     * Access-Control-Allow-Headers header name.
+     *
+     * @var string
+     */
+    const HEADER_ACCESS_CONTROL_ALLOW_HEADERS = 'Access-Control-Allow-Headers';
+
+    /**
+     * Access-Control-Allow-Methods header name.
+     *
+     * @var string
+     */
+    const HEADER_ACCESS_CONTROL_ALLOW_METHODS = 'Access-Control-Allow-Methods';
+
+    /**
      * Forwarded header name.
      *
      * @var string
