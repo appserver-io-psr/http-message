@@ -257,7 +257,7 @@ class Protocol
      *
      * @var string
      */
-    const HEADER_WWW_AUTHENTICATE = 'WWW-Authenticate';
+    const HEADER_WWW_AUTHENTICATE = 'Www-Authenticate';
 
     /**
      * Authorization header name.
@@ -358,7 +358,7 @@ class Protocol
      * @link https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
      * @link https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/
      */
-    const HEADER_X_XSS_PROTECTION = 'X-XSS-Protection';
+    const HEADER_X_XSS_PROTECTION = 'X-Xss-Protection';
 
     /**
      * Ensures that the web browser's XSS filter is enabled.

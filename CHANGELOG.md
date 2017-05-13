@@ -1,3 +1,13 @@
+# Version 1.4.1
+
+## Bugfixes
+
+* Fixed invalid names
+
+## Features
+
+* None
+
 # Version 1.4.0
 
 ## Bugfixes
